@@ -1,0 +1,36 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": "standard-with-typescript",
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "ignorePatterns": ["dist", "node_modules"],
+  "overrides": [],
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module",
+    "project": "./tsconfig.json"
+  },
+  "rules": {
+    "no-empty-function": 1,
+    "no-unused-vars": 1,
+    "no-use-before-define": 0,
+    "curly": 0,
+    "@typescript-eslint/no-unused-vars": 1,
+    "@typescript-eslint/no-explicit-any": 1,
+    "@typescript-eslint/explicit-function-return-type": 0,
+    "@typescript-eslint/semi": 0,
+    "@typescript-eslint/prefer-nullish-coalescing": 2,
+    "@typescript-eslint/strict-boolean-expressions": 0,
+    "@typescript-eslint/comma-dangle": 0,
+    "@typescript-eslint/member-delimiter-style": 0,
+    // restrict-plus-operands: 0,
+    "@typescript-eslint/restrict-plus-operands": 0,
+    "@typescript-eslint/no-use-before-define": 0,
+    "@typescript-eslint/space-before-function-paren": 0,
+    "@typescript-eslint/no-confusing-void-expression": 0,
+    "@typescript-eslint/no-misused-promises": 0
+  }
+}
