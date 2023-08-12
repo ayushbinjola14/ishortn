@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+.gradient {
   /* Css to apply gradient to top right, from #0a2942 to #0b473f */
   background: linear-gradient(42deg, #0a2942 0%, #0b473f 100%);
   color: #fff;
@@ -11,18 +11,18 @@ body {
 /* Include fonts, found in the /public/fonts/, fonts are MazzardH-Regular.otf MazzardL-Bold and Ocean-Semibold */
 
 @font-face {
-  font-family: "MazzardH-Regular";
-  src: url("/fonts/MazzardH-Regular.otf");
+  font-family: 'MazzardH-Regular';
+  src: url('/fonts/MazzardH-Regular.otf');
 }
 
 @font-face {
-  font-family: "MazzardL-Bold";
-  src: url("/fonts/MazzardL-Bold.otf");
+  font-family: 'MazzardL-Bold';
+  src: url('/fonts/MazzardL-Bold.otf');
 }
 
 @font-face {
-  font-family: "Ocean-Semibold";
-  src: url("/fonts/Ocean-Semibold.otf");
+  font-family: 'Ocean-Semibold';
+  src: url('/fonts/Ocean-Semibold.otf');
 }
 
 h1,
