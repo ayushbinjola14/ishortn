@@ -1,8 +1,8 @@
-import LandingPageNav from "@/components/LandingPageNav";
+import LandingPageNav from '@/components/LandingPageNav';
 
 export default function Home() {
   return (
-    <>
+    <body className="gradient">
       <LandingPageNav />
       <main className="flex min-h-screen flex-col items-center p-4 md:p-28">
         <section className="flex flex-col gap-6 md:flex-row w-full">
@@ -10,7 +10,7 @@ export default function Home() {
           <div className="flex flex-col justify-center items-center md:items-start md:justify-start md:w-1/2">
             <h1 className="text-4xl md:text-6xl font-bold text-center md:text-left font-ocean leading-10">
               <span className="leading-10">
-                Transform links{" "}
+                Transform links{' '}
                 <span className="text-green-500">unleash results</span>
               </span>
             </h1>
@@ -31,6 +31,6 @@ export default function Home() {
           </div>
         </section>
       </main>
-    </>
+    </body>
   );
 }
